@@ -28,4 +28,11 @@ DISPLAY r and phi
 # FLOWCHART
 
 ```mermaid
+flowchart TD
+A([Start]) --> B[[Declare variables x,y,r,phi]]
+B --> C[/INPUT x and y/]
+C --> D[[Calculate r]]
+D --> E[[Calculate phi]]
+E --> F[/Display Input variables and results/]
+F --> G([Stop])
 ```
