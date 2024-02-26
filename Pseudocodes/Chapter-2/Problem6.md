@@ -39,9 +39,10 @@ B --> C[/Take c and d as input/]
 C --> D[/Display "Before Swap:"/]
 D --> E[/Display c and d/]
 E --> F[[Assign c to temp]]
-F -->G[[Assign d to c]]
-G -->H[[Assign temp to d]]
+F --> G[[Assign d to c]]
+G --> H[[Assign temp to d]]
 H --> I[/Display "After Swap:"/]
 I --> J[/Display c and d/]
 J --> K([Stop])
+
 ```
