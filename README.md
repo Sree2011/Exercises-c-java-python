@@ -5,5 +5,5 @@ The programs are presented in C, Java and Python Languages.
 
 <h1>References</h1>
 <ol>
-<li id=1>Yashavant Kanetkar,(2022),Let Us C: Authentic Guide to C PROGRAMMING Language(18th ed.),BPB Publications</li>
+<li id=1>Yashavant. Kanetkar, __Let Us C: Authentic Guide to C PROGRAMMING Language, 18th edition__,BPB Publications, 2022.</li>
 </ol>
