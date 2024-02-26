@@ -51,5 +51,7 @@ public class Problem2 {
         System.out.println("The area of the circle: " + area_cir);
         System.out.println("The perimeter of the circle: " + per_cir);
 
+        // close scanner
+        sc.close();
     }
 }
