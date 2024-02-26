@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Problem1",
+      "request": "launch",
+      "mainClass": "Problem1",
+      "projectName": "C LANGUAGE EXERCISES_7d806b98"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
