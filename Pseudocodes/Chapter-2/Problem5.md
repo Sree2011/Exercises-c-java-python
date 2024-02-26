@@ -20,7 +20,20 @@ DECLARE FLOAT a
 DISPLAY "SINE of angle a is : sin(a)"
 DISPLAY "COSINE of angle a is : cos(a)"
 DISPLAY "TANGENT of angle a is : tan(a)"
-DISPLAY "COTANGENT of angle a is : cot(a) or 1/tan(a)"
-DISPLAY "SECANT of angle a is : sec(a) or 1/cos(a)"
-DISPLAY "COSECANT of angle a is : cosec(a) or 1/sin(a)"
+DISPLAY "COTANGENT of angle a is : cot(a)"
+DISPLAY "SECANT of angle a is : sec(a)"
+DISPLAY "COSECANT of angle a is : cosec(a)"
+```
+
+# FLOWCHART
+
+```mermaid
+A([Start]) --> B[[Declare variable a]]
+B --> C[/display SINE of angle a is sin(a)/]
+C --> D[/display COSINE of angle a is cos(a)/]
+D --> E[/display TANGENT of angle a is tan(a)/]
+E -->F[/display COTANGENT of angle a is cot(a)/]
+F --> G[/display SECANT of angle a is sec(a)/]
+G --> H[/display COSECANT of angle a is cosec(a)/]
+H --> I([Stop])
 ```
