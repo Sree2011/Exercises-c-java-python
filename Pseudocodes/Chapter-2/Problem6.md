@@ -37,11 +37,11 @@ flowchart TD
 A([Start]) --> B[[Declare integer variables c,d,temp]]
 B --> C[/Take c,d as input/]
 C --> D[/Display "Before Swap: "/]
-D --> E[/Display c,d/]
+D --> E[/"Display c,d"/]
 E --> F[[Assign a to temp]]
 F -->G[[Assign b to a]]
 G -->H[[Assign temp to b]]
 H --> I[/Display "After Swap: "/]
-I --> J[/Display c,d/]
+I --> J[/"Display c,d"/]
 J --> K([Stop])
 ```
