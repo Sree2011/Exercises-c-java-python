@@ -18,16 +18,16 @@ Write a program to interchange contents of c and d.
 # PSEUDOCODE
 
 ```pseudocode
-DECLARE INTEGER c and d
+DECLARE INTEGER a and b
 DECLARE INTEGER temp
-INPUT c,d
+INPUT a,b
 DISPLAY "Before Swap: "
-DISPLAY c,d
+DISPLAY a,b
 ASSIGN a to temp
 ASSIGN b to a
 ASSIGN temp to b
 DISPLAY "After Swap: "
-DISPLAY c,d
+DISPLAY a,b
 ```
 
 # FLOWCHART
