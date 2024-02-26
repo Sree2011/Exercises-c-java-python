@@ -28,12 +28,13 @@ DISPLAY "COSECANT of angle a is : cosec(a)"
 # FLOWCHART
 
 ```mermaid
+flowchart TD
 A([Start]) --> B[[Declare variable a]]
-B --> C[/display SINE of angle a is sin(a)/]
-C --> D[/display COSINE of angle a is cos(a)/]
-D --> E[/display TANGENT of angle a is tan(a)/]
-E -->F[/display COTANGENT of angle a is cot(a)/]
-F --> G[/display SECANT of angle a is sec(a)/]
-G --> H[/display COSECANT of angle a is cosec(a)/]
+B --> C[/display SINE of angle a/]
+C --> D[/display COSINE of angle a/]
+D --> E[/display TANGENT of angle a/]
+E -->F[/display COTANGENT of angle a/]
+F --> G[/display SECANT of angle a/]
+G --> H[/display COSECANT of angle a/]
 H --> I([Stop])
 ```
