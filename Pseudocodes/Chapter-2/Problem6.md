@@ -21,12 +21,12 @@ Write a program to interchange contents of c and d.
 DECLARE INTEGER a and b
 DECLARE INTEGER temp
 INPUT a,b
-DISPLAY "Before Swap:"
+DISPLAY "Before Swap"
 DISPLAY a,b
 ASSIGN a to temp
 ASSIGN b to a
 ASSIGN temp to b
-DISPLAY "After Swap:"
+DISPLAY "After Swap"
 DISPLAY a,b
 ```
 
@@ -36,12 +36,12 @@ DISPLAY a,b
 flowchart TD
 A([Start]) --> B[[Declare integer variables c,d,temp]]
 B --> C[/Take c and d as input/]
-C --> D[/Display "Before Swap:"/]
+C --> D[/Display Before Swap/]
 D --> E[/Display c and d/]
 E --> F[[Assign c to temp]]
 F --> G[[Assign d to c]]
 G --> H[[Assign temp to d]]
-H --> I[/Display "After Swap:"/]
+H --> I[/Display After Swap/]
 I --> J[/Display c and d/]
 J --> K([Stop])
 
