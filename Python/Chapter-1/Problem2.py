@@ -1,8 +1,8 @@
 
-length,breadth,radius = list(map(int,input().split()))
+length,breadth,radius = list(map(float,input().split()))
 area_rec = length*breadth
 per_rec = 2*(length+breadth)
-area_cir = 3.14*radius^2
+area_cir = 3.14*radius**2
 per_cir = 2*3.14*radius
 
 print(f"Length of the rectangle is: {length}")
