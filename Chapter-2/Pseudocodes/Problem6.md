@@ -5,9 +5,9 @@ Write a program to interchange contents of c and d.
 # ALGORITHM
 
 1. Start
-2. Declare integer variables c and d
+2. Declare integer variables a and b
 3. Declare another variable temp
-4. Take c and d as input
+4. Take a and b as input
 5. Display the values of the variables before swap
 6. Assign a to temp
 7. Assign b to a
