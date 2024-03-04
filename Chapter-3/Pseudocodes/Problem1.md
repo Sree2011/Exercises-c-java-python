@@ -19,23 +19,38 @@ b. Else, display "Not pallindrome"
 # PSEUDOCODE
 
 ```pseudocode
-DECLARE INTEGER num,rem
-DECLARE INTEGER ARRAY a[length(num)]
-INPUT num
-WHILE num>0
-    ASSIGN REMAINDER(num,10) to rem
-    APPEND rem to ARRAY a
-    ASSIGN num/10 to num
-ENDWHILE
-DECLARE INTEGER s = 0
-FOR i IN RANGE OF 0 to length(a)
-    ADD a[i]*2**(length(a)-i) to s
-ENDFOR
 
-IF s is equal to num
-    DISPLAY "Pallindrome"
-ELSE
-    DISPLAY "Not Pallindrome"
+FUNCTION CountDigits(INTEGER num)
+    DECLARE INTEGER result and ASSIGN 0 to it
+    WHILE num != 0
+        ASSIGN num/10 to num
+        INCREMENT result
+    ENDWHILE
+    RETURN result
+ENDFUNCTION
+
+FUNCTION main
+    DECLARE INTEGER num,rem,temp,n
+    INPUT num
+    ASSIGN CountDigits(num) to n
+    DECLARE INTEGER ARRAY a[n]
+    ASSIGN num to temp
+    WHILE temp>0
+        ASSIGN REMAINDER(temp,10) to rem
+        APPEND rem to ARRAY a
+        ASSIGN temp/10 to temp
+    ENDWHILE
+    DECLARE INTEGER s = 0
+    FOR i IN RANGE OF 0 to length(a)
+        ASSIGN s to s*10 + a[i]
+    ENDFOR
+
+    IF s is equal to num
+        DISPLAY "Pallindrome"
+    ELSE
+        DISPLAY "Not Pallindrome"
+    ENDIF
+ENDFUNCTION
 ```
 
 # FLOWCHART
