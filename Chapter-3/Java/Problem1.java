@@ -43,5 +43,8 @@ public class Problem1 {
         } else {
             System.out.println("Not Pallindrome");
         }
+
+        // close the scanner
+        sc.close();
     }
 }
