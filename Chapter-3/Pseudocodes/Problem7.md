@@ -24,7 +24,7 @@ $$D = \sqrt{{(x - h)^2 + (y - k)^2}} $$
 # PSEUDOCODE
 
 ```pseudocode
-DECLARE FLOAT x,y,h,k,d
+DECLARE FLOAT x,y,h,k,d,r
 INPUT x,y
 INPUT h,k
 INPUT r
@@ -36,4 +36,23 @@ ELSE IF d = r
 ELSE
     DISPLAY "The point is outside the circle"
 ENDIF
+```
+
+# FLOWCHART
+
+```mermaid
+flowchart TD
+a([Start]) --> b[[Declare float variables x,y,h,k,d,r]]
+b --> c[/Input x,y/]
+c --> d[/Input h,k/]
+d --> e[/Input r/]
+e --> f["Calculate the cartesian distance between (x,y) and (h,k)" and assign it to d]
+f --> g{If d < r}
+g --> |True| h[/Display "The point is inside the circle"/]
+g --> |False| i{if d == r}
+i --> |True| j[/Display "The point is on the circle"/]
+i --> |False| k[/Display "The point is outside the circle"/]
+h --> l([Stop])
+j --> l
+k --> l
 ```
