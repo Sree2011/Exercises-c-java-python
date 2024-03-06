@@ -21,6 +21,7 @@ public class Problem6 {
         } else {
             System.out.println("Non-collinear points");
         }
+        sc.close();
 
     }
 }
