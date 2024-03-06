@@ -18,12 +18,13 @@ $$Slope(XZ) = \frac{y3-y1}{x3-x1}$$
 
 1. Start
 2. Declare float variables x1,y1,x2,y2,x3,y3,slope_xy,slope_yz,slope_xz
-3. Assign (y2-y1)/(x2-x1) to slope_xy
-4. Assign (y3-y2)/(x3-x2) to slope_yz
-5. Assign (y3-y1)/(x3-x1) to slope_xz
-6. If slope_xy = slope_yz and slope_yz = slope_xz, Display "Collinear points"
-7. Else, display "non-collinear points"
-8. Stop
+3. Input x1,y1,x2,y2,x3,y3
+4. Assign (y2-y1)/(x2-x1) to slope_xy
+5. Assign (y3-y2)/(x3-x2) to slope_yz
+6. Assign (y3-y1)/(x3-x1) to slope_xz
+7. If slope_xy = slope_yz and slope_yz = slope_xz, Display "Collinear points"
+8. Else, display "non-collinear points"
+9. Stop
 
 # PSEUDOCODE
 
@@ -45,7 +46,7 @@ ENDIF
 
 ```mermaid
 flowchart TD
-A([Start]) --> B[[Declare float variables x1,y1,x2,y2,x3,y3]]
+A([Start]) --> B[[Declare float variables x1,y1,x2,y2,x3,y3 and input them]]
 B --> C[[Declare float variables slope_xy,slope_yz, slope_xz]]
 C --> D[Calculate slope_xy]
 D --> E[Calculate slope_yz]
