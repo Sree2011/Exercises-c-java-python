@@ -47,7 +47,7 @@ FUNCTION main
             ADD 365 to odd_days
         ENDIF
     ENDFOR
-    ASSIGN odd_days/7 to odd_days
+    ASSIGN odd_days%7 to odd_days
 
     DECLARE STRING ARRAY weekdays
     ASSIGN ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"] to a
