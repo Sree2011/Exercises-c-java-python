@@ -79,7 +79,7 @@ E --> |True|F[Add 366 to odd_days]
 E --> |False| G[Add 365 to odd_days]
 F --> D
 G --> D
-G --> H["Assign odd_days/7 to odd_days"]
+G --> H["Assign odd_days%7 to odd_days"]
 F --> H
 H --> I[[Declare String array weekdays with days from monday to sunday]]
 
