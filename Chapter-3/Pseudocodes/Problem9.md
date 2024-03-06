@@ -21,8 +21,16 @@ odd days = 365*200+DAYS IN LEAP YEARS/7
 
 1. Start
 2. Declare the integer variables year,odd_days
-3. 
-
+3. Input year
+4. Create a helper function is_leap(year) to determine whether the given year is a leap year or not
+5. Run a loop from integer i = 0 to year-1
+6. In that loop, check if each i is a leap year or not using the helper function defined above.
+7. If the condition is true, add 366 to odd_days
+8. Else, add 365 to odd_days
+9. After the loop, assign the remainder of odd_days and 7 back to odd_days
+10. Declare an string array weekdays with the days of week from monday to sunday
+11. Display "The day of the week at 01.01.year is weekdays[odd_days]"
+12. Stop
 
 
 
