@@ -1,4 +1,4 @@
-# PROBLEM 9
+## PROBLEM 3.9
 According to Gregorian Calendar, it was Monday on the date 01/01/01. If any year is input through the keyboard, write a program to find out what is the day on 1st January of this year.
 
 Year = 200
@@ -17,7 +17,7 @@ odd days = 365*200+DAYS IN LEAP YEARS/7
 |5|Saturday|
 |6|Sunday|
 
-# ALGORITHM
+### ALGORITHM
 
 1. Start
 2. Declare the integer variables year,odd_days
@@ -34,7 +34,7 @@ odd days = 365*200+DAYS IN LEAP YEARS/7
 
 
 
-# PSEUDOCODE
+### PSEUDOCODE
 ```pseudocode
 DECLARE INTEGER odd_days,year
 INPUT year
@@ -65,7 +65,7 @@ FUNCTION main
 ENDFUNCTION
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 graph TD

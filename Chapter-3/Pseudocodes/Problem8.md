@@ -1,8 +1,8 @@
-# PROBLEM 8
+## PROBLEM 3.8
 Given a point (x,y), write a program to find out if it lies on X-axis,
 Y-axis or origin.
 
-# ALGORITHM
+### ALGORITHM
 1. Start
 2. Declare float variables x and y
 3. If x == 0 and y == 0, display "The point lies on origin"
@@ -11,7 +11,7 @@ Y-axis or origin.
 6. Stop
 
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 DECLARE FLOAT x,y
@@ -24,7 +24,7 @@ ELSE IF x != 0 AND y = 0
 ENDIF
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

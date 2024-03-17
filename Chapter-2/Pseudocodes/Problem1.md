@@ -1,7 +1,9 @@
-# PROBLEM 1
+# CHAPTER-2: C INSTRUCTIONS
+
+## PROBLEM 2.1
 If a five-digit number is input through the keyboard, write a program to calculate the sum of its digits.
 
-# ALGORITHM
+### ALGORITHM
 1. Start
 2. Declare int variables num,and s1
 3. Take num as input
@@ -14,7 +16,7 @@ If a five-digit number is input through the keyboard, write a program to calcula
 10. Stop
 
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 DECLARE INTEGER num,s1
@@ -29,7 +31,7 @@ DISPLAY "The sum of digits of number is: "
 DISPLAY s1
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

@@ -1,7 +1,7 @@
-# PROBLEM 2
+## PROBLEM 1.2
 The length and breadth of a rectangle and radius of a circle are input through the keyboard. Write a program to calculate the area and perimeter of the rectangle, and the area and circumference of the circle.
 
-# ALGORITHM:
+### ALGORITHM:
 1. Start
 2. Declare float variables length, breadth,radius, area_cir,area_rec,per_cir,per_rec
 3. Take length, breadth and radius as input
@@ -13,7 +13,7 @@ The length and breadth of a rectangle and radius of a circle are input through t
 9. Stop
 
 
-# PSEUDOCODE:
+### PSEUDOCODE:
 
 ```pseudocode
 DECLARE FLOAT length, breadth,radius, area_cir,area_rec,per_cir,per_rec
@@ -38,7 +38,7 @@ DISPLAY "The perimeter of the circle:"
 DISPLAY per_cir
 ```
 
-# FLOWCHART:
+### FLOWCHART:
 
 ```mermaid
 flowchart TD
@@ -50,5 +50,4 @@ E --> F[[Calculate area of the circle]]
 F --> G[[Calculate perimeter of the circle]]
 G --> H[/Display input and output variables/]
 H --> I([Stop])
-
 ```

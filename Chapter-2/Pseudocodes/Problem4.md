@@ -1,4 +1,4 @@
-# PROBLEM - 4
+## PROBLEM 2.4
 Wind chill factor is the felt air temperature on
 exposed skin due to wind. The wind chill temperature
 is always lower than the air temperature, and is
@@ -8,7 +8,7 @@ where t is temperature, v is wind velocity.
 Write a program to recieve values of t and v and
 calculate wcf.
 
-# ALGORITHM
+### ALGORITHM
 1. Start
 2. Declare float variables t,v and wcf
 3. Take t and v as input
@@ -16,7 +16,7 @@ calculate wcf.
 5. Display the inputs and results.
 6. Stop
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 DECLARE FLOAT t,v,wcf
@@ -30,7 +30,7 @@ DISPLAY "Wind chill factor : "
 DISPLAY wcf
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

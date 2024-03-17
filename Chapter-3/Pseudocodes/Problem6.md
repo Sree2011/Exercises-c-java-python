@@ -1,7 +1,4 @@
-\usepackage{amsmath}
-\usepackage{amssymb}
-
-# PROBLEM 6
+## PROBLEM 3.6
 Given the three points X(x1,y1), Y(x2,y2) and Z(x3,y3), write a program to check if the three points fall on straight line.
 
 Condition for collinearity:
@@ -14,7 +11,7 @@ $$Slope(YZ) = \frac{y3-y2}{x3-x2}$$
 
 $$Slope(XZ) = \frac{y3-y1}{x3-x1}$$
 
-# ALGORITHM
+### ALGORITHM
 
 1. Start
 2. Declare float variables x1,y1,x2,y2,x3,y3,slope_xy,slope_yz,slope_xz
@@ -26,7 +23,7 @@ $$Slope(XZ) = \frac{y3-y1}{x3-x1}$$
 8. Else, display "non-collinear points"
 9. Stop
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 DECLARE FLOAT x1,y1,x2,y2,x3,y3
@@ -42,7 +39,7 @@ ELSE
 ENDIF
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

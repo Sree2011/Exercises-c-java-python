@@ -1,9 +1,9 @@
-# PROBLEM 3
+## PROBLEM 1.3
 Paper of size A0 has dimensions 1189 cm x 841 mm. Each subsequent size A(n) is defined as A(n-1) cut in half, parallel to its shorter sides. 
 Thus, a paper of size A1 would have dimensions 841 mm x 594 mm. Write a program to calculate and print the paper sizes A1 to A8.
 
 
-# ALGORITHM:
+### ALGORITHM:
 1. Start
 2. Declare float variables h and w.
 3. Assign h to 1189 and w to 841.
@@ -14,7 +14,7 @@ w = 2^(-0.25 - 0.5 * i) * 1000,h = 2^(0.25 - 0.5 * i) * 1000, taking i as 1.
 7. Display the sizes of A1 to A8.
 8. Stop
 
-# PSEUDOCODE:
+### PSEUDOCODE:
 
 ```pseudocode
 DECLARE FLOAT h,w
@@ -49,8 +49,7 @@ ASSIGN h to 2^(0.25 - 0.5 * 8) * 1000
 DISPLAY "Size of A8: hxw"
 ```
 
-# FLOWCHART
-
+### FLOWCHART
 ```mermaid
 flowchart TD
 A([Start]) --> B[[Declare h and w]]

@@ -1,8 +1,8 @@
-# PROBLEM 3
+## PROBLEM 3.3
 
 Write a program to check whether a triangle is valid or not, if three angles of the triangle are entered through the keyboard. A triangle is valid if the sum of all the three angles is equal to 180 degrees
 
-# ALGORITHM
+### ALGORITHM
 
 1. Start
 2. Declare integer variables a,b,c
@@ -10,7 +10,7 @@ Write a program to check whether a triangle is valid or not, if three angles of 
 4. Else, display "Invalid triangle"
 5. Stop
 
-# PSEUDOCODE:
+### PSEUDOCODE:
 
 ```pseudocode
 DECLARE INTEGER a,b,c
@@ -22,7 +22,7 @@ ELSE
 ENDIF
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

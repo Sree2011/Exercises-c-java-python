@@ -1,7 +1,7 @@
-# PROBLEM 4
+## PROBLEM 3.4
 Write a program to find the absolute value of a number entered through the keyboard
 
-# ALGORITHM
+### ALGORITHM
 
 1. Start
 2. Declare variable a
@@ -10,7 +10,7 @@ Write a program to find the absolute value of a number entered through the keybo
 5. Display "Absolute value: ",abs(a)
 6. Stop
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 DECLARE INTEGER a
@@ -19,7 +19,7 @@ DISPLAY "Absolute value of a: "
 DISPLAY abs(a)
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

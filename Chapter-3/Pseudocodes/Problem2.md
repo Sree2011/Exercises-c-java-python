@@ -1,7 +1,7 @@
-# PROBLEM 2
+## PROBLEM 3.2
 If ages of Ram, Shyam and Ajay are input through the keyboard, write a program to determine the youngest of the three
 
-# ALGORITHM
+### ALGORITHM
 1. Start
 2. Declare integer variables ram, shyam and ajay
 3. Input ram, shyam and ajay
@@ -10,7 +10,7 @@ If ages of Ram, Shyam and Ajay are input through the keyboard, write a program t
 6. Else display "Ajay is youngest"
 7. Stop
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 DECLARE INTEGER ram,shyam,ajay
@@ -24,7 +24,7 @@ ELSE
 ENDIF
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

@@ -1,4 +1,4 @@
-# PROBLEM 7
+## PROBLEM 3.7
 Given the coordinates C(x,y) of the center of the circle and its radius r,
 write a program that will determine whether a point P(h,k) lies inside the circle, on the circle, or outside the circle.\
 
@@ -8,7 +8,7 @@ $$D = \sqrt{{(x - h)^2 + (y - k)^2}} $$
 > If $D = r$, the point lies on the circle.\
 > If $D > r$, the point lies outside the circle.
 
-# ALGORITHM
+### ALGORITHM
 
 1. Start
 2. Declare float variables x,y,h,k,d,r
@@ -21,7 +21,7 @@ $$D = \sqrt{{(x - h)^2 + (y - k)^2}} $$
 9. Else, display "The point is outside the circle"
 10. Stop
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 DECLARE FLOAT x,y,h,k,d,r
@@ -38,7 +38,7 @@ ELSE
 ENDIF
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

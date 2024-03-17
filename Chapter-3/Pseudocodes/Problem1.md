@@ -1,7 +1,8 @@
-# PROBLEM 1
+# CHAPTER - 3: CONDITIONAL STATEMENTS
+## PROBLEM 3.1
 A five-digit number is entered through the keyboard. Write a program to obtain the reversed number and to determine whether the original and reversed numbers are equal or not
 
-# ALGORITHM
+### ALGORITHM
 1. Start
 2. Declare integer variable num, and an array a
 3. Take num as input
@@ -16,7 +17,7 @@ a. If yes, display "Pallindrome"
 b. Else, display "Not pallindrome"
 11. Stop
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 
@@ -53,7 +54,7 @@ FUNCTION main
 ENDFUNCTION
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

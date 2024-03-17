@@ -1,7 +1,7 @@
-# PROBLEM 5
+## PROBLEM 3.5
 Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle greater than its perimeter. For example, the area of the rectangle with length = 5 and breadth = 4 is greater than its perimeter
 
-# ALGORITHM
+### ALGORITHM
 
 1. Start
 2. Declare float variables l,b,ar,per
@@ -11,7 +11,7 @@ Given the length and breadth of a rectangle, write a program to find whether the
 6. Else, display "Area is lesser than the perimeter of the rectangle"
 7. Stop
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 DECLARE FLOAT l,b,ar,per
@@ -25,7 +25,7 @@ ELSE
 ENDIF
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

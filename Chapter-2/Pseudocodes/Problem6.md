@@ -1,8 +1,8 @@
-# PROBLEM 6
+## PROBLEM 2.6
 Two numbers are input through two locations c and d.
 Write a program to interchange contents of c and d.
 
-# ALGORITHM
+### ALGORITHM
 
 1. Start
 2. Declare integer variables a and b
@@ -15,7 +15,7 @@ Write a program to interchange contents of c and d.
 9. Display values of a and b'
 10. Stop
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 DECLARE INTEGER a and b
@@ -30,7 +30,7 @@ DISPLAY "After Swap"
 DISPLAY a,b
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

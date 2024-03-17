@@ -1,8 +1,8 @@
-# PROBLEM 2
+## PROBLEM 2.2
 Write a program to recieve Cartesian Coordinates (x,y) of a point and convert them into polar coordinates (r,phi)
 **Hint: r = sqrt(x^2+y^2), phi = tan^-1(y/x)**
 
-# ALGORITHM
+### ALGORITHM
 1. Start
 2. Declare float variables x,y,r,phi
 3. Take x and y as input
@@ -12,7 +12,7 @@ Write a program to recieve Cartesian Coordinates (x,y) of a point and convert th
 7. Stop
 
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 DECLARE FLOAT x,y,r,phi
@@ -25,7 +25,7 @@ DISPLAY "Polar Coordinates: "
 DISPLAY r and phi
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD

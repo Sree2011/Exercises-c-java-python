@@ -1,8 +1,8 @@
-# PROBLEM 5
+## PROBLEM 2.5
 If value of an angle is input through the keyboard,
 write a program to print all its trigonometric ratios.
 
-# ALGORITHM
+### ALGORITHM
 1. Start
 2. Declare float variable a
 3. Calculate sin(a) and print the result
@@ -13,7 +13,7 @@ write a program to print all its trigonometric ratios.
 8. Calculate cosec(a) and print the result
 9. Stop
 
-# PSEUDOCODE
+### PSEUDOCODE
 
 ```pseudocode
 DECLARE FLOAT a
@@ -25,7 +25,7 @@ DISPLAY "SECANT of angle a is : sec(a)"
 DISPLAY "COSECANT of angle a is : cosec(a)"
 ```
 
-# FLOWCHART
+### FLOWCHART
 
 ```mermaid
 flowchart TD
