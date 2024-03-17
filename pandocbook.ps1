@@ -13,4 +13,4 @@ Mac, Ubuntu users don't need the .cmd extension
 $(cat includes.txt) : Concatenate multiple markdown files specified in includes.txt
 -B title.txt : Add title to the book using contents of title.txt
 #>
-pandoc --toc -t pdf --highlight-style=espresso -F mermaid-filter.cmd -o Problem_compilation.pdf $(cat includes.txt) -B title.txt
+pandoc --toc -t pdf --highlight-style=espresso -F mermaid-filter.cmd -o Problem_compilation.pdf $(cat includes.txt)
