@@ -23,13 +23,6 @@ DISPLAY celsius
 ```
 # FLOWCHART
 
-```mermaid
-flowchart TD
-A([Start]) --> B[[Declare fahrenheit and celsius]]
-B --> C[/Take fahrenheit as input/]
-C --> D[[Calculate celsius using the formula]]
-D --> E[/Display celsius/]
-E --> F([End])
-```
+![Flowchart](./flow1.svg)
 
 
