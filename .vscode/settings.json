@@ -63,5 +63,6 @@
     "*.pseudo": "pseudocode",
     "stdio.h": "c",
     "math.h": "c"
-  }
+  },
+  "liveServer.settings.port": 5501
 }

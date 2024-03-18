@@ -1,6 +1,10 @@
 <style>
-    background-color: aquamarine;
+body 
+{ background-color: aquamarine; 
+}
 </style>
 
+MY FIRST BOOK
+=============
 
-% MARKDOWN TITLE
+Based on Let Us C by Yashavant Kanetkar
