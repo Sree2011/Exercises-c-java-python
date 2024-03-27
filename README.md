@@ -10,4 +10,4 @@ The programs are presented in C, Java and Python Languages.
 
 
 ![Programming Languages - C, Java, Python](https://img.shields.io/badge/Programming_Languages-C%2C_Java%2C_Python-0000ff)
-![Documentation - Markdown]([https://img.shields.io/badge/Documentation-Markdown-00ff00](https://img.shields.io/badge/Documentation-Markdown-pink?labelColor=ff1493&color=ffb6c1)https://img.shields.io/badge/Documentation-Markdown-pink?labelColor=ff1493&color=ffb6c1)
+![Documentation - Markdown](https://img.shields.io/badge/Documentation-Markdown-pink?labelColor=ff1493&color=ffb6c1)
