@@ -13,5 +13,16 @@ Write a program using conditional operators to determine whether the given year 
 ### FLOWCHART
 
 ```mermaid
-A(Start) --> B[]
-```
+flowchart TD
+A(Start) --> B[/Declare integer variable year/]
+B --> C[/Take year as input/]
+C --> D{If year is evenly divisible by 4}
+D --> |False|E[/Display "Not a leap year"/]
+D --> |True| F{If year is evenly divisible by 100}
+F --> |False| G[/Display "Leap Year"/]
+F --> |True| H{If year is evenly divisible by 400}
+H --> |True|G
+H --> |False|E
+
+G --> I([Stop])
+E --> I
