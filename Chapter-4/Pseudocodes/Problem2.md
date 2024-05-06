@@ -9,3 +9,9 @@ Write a program using conditional operators to determine whether the given year 
 5. If year is evenly divisible by 100, go to step 6. else, display "Leap Year"
 6. If the year is divisible by 400, Display "Leap year". else, Display "not a Leap year".
 7. Stop
+
+### FLOWCHART
+
+```mermaid
+A(Start) --> B[]
+```
