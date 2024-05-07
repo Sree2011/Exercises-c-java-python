@@ -31,5 +31,13 @@ STOP
 
 ```mermaid
 flowchart TD
-A([Start]) --> B[/Declare float variables /]
+A([Start]) --> B[/Declare float variables angle,sinang, cosang,result/]
+B --> C[/Take angle as input/]
+C --> D[[Calculate sine and cosine of angle and store them into the variables sinang and cosang respectively.]]
+D --> E[[ Calculate the squares of sinang and cosang, add them and store them into the variable result.]]
+E --> F{If result == 1}
+F --> |True|G[/Display "True"/]
+F --> |False|H[/Display "False"/]
+G --> I([Stop])
+H --> I
 ```
