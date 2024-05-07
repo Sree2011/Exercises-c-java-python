@@ -4,7 +4,7 @@ Write a program to recieve value of an angle in degrees and check whether the su
 ### ALGORITHM
 
 1. Start
-2. Declare an float variable angle,sinang,cosang,result.
+2. Declare float variables angle,sinang,cosang,result.
 3. Take angle as input
 4. Calculate sine and cosine of angle and store them into the variables sinang and cosang respectively.
 5. Calculate the squares of sinang and cosang, add them and store them into the variable result.
