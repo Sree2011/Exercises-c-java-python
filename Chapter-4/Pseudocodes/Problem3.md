@@ -11,3 +11,17 @@ Write a program to find the greatest of the three numbers entered through the ke
 6. Else if c is greater than b and c is greater than a, display "c is greatest of three"
 7. Stop
 
+### FLOWCHART
+
+```mermaid
+flowchart TD
+A([Start]) --> B[/Declare integer variables a,b and c/]
+B --> C[/Take a,b and c as input/]
+C --> D{If a is equal to both b and c}
+D --> |True|E[/Display "all numbers are equal"/]
+D --> |False|F{If a is greater than both b and c}
+F --> |True|G[/Display a is greatest of three/]
+F --> |False| H{If b is greater than both a and c}
+H --> |True| I[/Display b is greatest of three/]
+H --> |False|J[/Display c is greatest of three/]
+```
