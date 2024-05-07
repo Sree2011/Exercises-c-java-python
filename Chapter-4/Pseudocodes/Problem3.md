@@ -45,4 +45,6 @@ F --> |True|G[/Display a is greatest of three/]
 F --> |False| H{If b is greater than both a and c}
 H --> |True| I[/Display b is greatest of three/]
 H --> |False|J[/Display c is greatest of three/]
+I --> K([Stop])
+J --> K
 ```
